@@ -39,7 +39,7 @@ export default function RegisterForm( {onSubmit}) {
                <FieldsetComponent title="Role" placeholder="enter your role" />
                <FieldsetComponent title = "period" placeholder="enter time of period" />
                <FieldsetComponent title = "area" placeholder = "enter the area of square meters or py" />
-               <button onClick = {submitForm}>Register</button>
+               <Button onClick = {submitForm}>Register</Button>
         </div>
     )
 
@@ -57,5 +57,7 @@ const StyledFieldset = styled.fieldset`
 `;
 
 const Button = styled.button`
-
+    color : #fff;
+    background-color : #614888;
+    height:30px;
 `;
